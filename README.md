@@ -1,3 +1,3 @@
 # ninja_godot
 
-under development godot game!
+under development 2d godot game!
