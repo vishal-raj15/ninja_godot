@@ -1,27 +1,19 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=3 format=2]
 
 [ext_resource path="res://land/land.png" type="Texture" id=1]
 
 [sub_resource type="RectangleShape2D" id=1]
-extents = Vector2( 80.781, 44.781 )
-
-[sub_resource type="SegmentShape2D" id=3]
-a = Vector2( 76.9503, 6.99847 )
-b = Vector2( -78.1323, 19.922 )
-
-[sub_resource type="SegmentShape2D" id=2]
-a = Vector2( 76.9503, 32.8456 )
-b = Vector2( -80.717, -2.04803 )
+extents = Vector2( 82.7725, 46.7145 )
 
 [node name="landTiles" type="Node"]
 
 [node name="0" type="Sprite" parent="."]
-position = Vector2( 6.57993, 9.4627 )
-scale = Vector2( 5.09103, 2.99721 )
+position = Vector2( 10.0961, 9.4627 )
+scale = Vector2( 4, 4 )
 texture = ExtResource( 1 )
 centered = false
 region_enabled = true
-region_rect = Rect2( 0, 32, 32, 32 )
+region_rect = Rect2( 0, 0, 32, 32 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -31,16 +23,16 @@ position = Vector2( -0.0232042, -0.138869 )
 scale = Vector2( 0.196424, 0.333644 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="0/StaticBody2D"]
-position = Vector2( 80.6178, 48.3089 )
+position = Vector2( 82.8554, 48.3089 )
 shape = SubResource( 1 )
 
 [node name="1" type="Sprite" parent="."]
-position = Vector2( 231.45, 6.87801 )
-scale = Vector2( 5.09103, 2.99721 )
+position = Vector2( 184.147, 5.94653 )
+scale = Vector2( 4, 4 )
 texture = ExtResource( 1 )
 centered = false
 region_enabled = true
-region_rect = Rect2( 96, 32, 32, 32 )
+region_rect = Rect2( 32, 0, 32, 32 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -50,16 +42,16 @@ position = Vector2( -0.0232042, -0.138869 )
 scale = Vector2( 0.196424, 0.333644 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="1/StaticBody2D"]
-position = Vector2( 83.2025, 48.3089 )
+position = Vector2( 82.8554, 48.3089 )
 shape = SubResource( 1 )
 
 [node name="2" type="Sprite" parent="."]
-position = Vector2( 11.7493, 388.123 )
-scale = Vector2( 5.09103, 2.99721 )
+position = Vector2( 850.462, 12.9789 )
+scale = Vector2( 4, 4 )
 texture = ExtResource( 1 )
 centered = false
 region_enabled = true
-region_rect = Rect2( 0, 128, 32, 32 )
+region_rect = Rect2( 192, 0, 32, 32 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -69,16 +61,16 @@ position = Vector2( -0.0232042, -0.138869 )
 scale = Vector2( 0.196424, 0.333644 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="2/StaticBody2D"]
-position = Vector2( 83.2025, 48.3089 )
+position = Vector2( 82.8554, 48.3089 )
 shape = SubResource( 1 )
 
 [node name="3" type="Sprite" parent="."]
-position = Vector2( 637.249, 137.406 )
-scale = Vector2( 5.09103, 2.99721 )
+position = Vector2( 693.992, 23.5274 )
+scale = Vector2( 4, 4 )
 texture = ExtResource( 1 )
 centered = false
 region_enabled = true
-region_rect = Rect2( 160, 64, 32, 32 )
+region_rect = Rect2( 128, 0, 32, 32 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -88,16 +80,16 @@ position = Vector2( -0.0232042, -0.138869 )
 scale = Vector2( 0.196424, 0.333644 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="3/StaticBody2D"]
-position = Vector2( 83.2025, 48.3089 )
+position = Vector2( 82.8554, 48.3089 )
 shape = SubResource( 1 )
 
 [node name="4" type="Sprite" parent="."]
-position = Vector2( 634.665, 5.58565 )
-scale = Vector2( 5.09103, 2.99721 )
+position = Vector2( 530.49, 16.495 )
+scale = Vector2( 4, 4 )
 texture = ExtResource( 1 )
 centered = false
 region_enabled = true
-region_rect = Rect2( 160, 64, 32, 32 )
+region_rect = Rect2( 96, 0, 32, 32 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -107,16 +99,16 @@ position = Vector2( -0.0232042, -0.138869 )
 scale = Vector2( 0.196424, 0.333644 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="4/StaticBody2D"]
-position = Vector2( 83.2025, 48.3089 )
+position = Vector2( 82.8554, 48.3089 )
 shape = SubResource( 1 )
 
 [node name="5" type="Sprite" parent="."]
-position = Vector2( 431.765, 141.283 )
-scale = Vector2( 5.09103, 2.99721 )
+position = Vector2( 368.746, 16.495 )
+scale = Vector2( 4, 4 )
 texture = ExtResource( 1 )
 centered = false
 region_enabled = true
-region_rect = Rect2( 64, 64, 32, 32 )
+region_rect = Rect2( 64, 0, 32, 32 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -126,16 +118,16 @@ position = Vector2( -0.0232042, -0.138869 )
 scale = Vector2( 0.196424, 0.333644 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="5/StaticBody2D"]
-position = Vector2( 83.2025, 48.3089 )
+position = Vector2( 82.8554, 48.3089 )
 shape = SubResource( 1 )
 
 [node name="6" type="Sprite" parent="."]
-position = Vector2( 234.034, 137.406 )
-scale = Vector2( 5.09103, 2.99721 )
+position = Vector2( 18.8865, 181.755 )
+scale = Vector2( 4, 4 )
 texture = ExtResource( 1 )
 centered = false
 region_enabled = true
-region_rect = Rect2( 32, 64, 32, 32 )
+region_rect = Rect2( 0, 32, 32, 32 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -145,16 +137,16 @@ position = Vector2( -0.0232042, -0.138869 )
 scale = Vector2( 0.196424, 0.333644 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="6/StaticBody2D"]
-position = Vector2( 83.2025, 48.3089 )
+position = Vector2( 82.8554, 48.3089 )
 shape = SubResource( 1 )
 
 [node name="7" type="Sprite" parent="."]
-position = Vector2( 0.118134, 147.745 )
-scale = Vector2( 5.09103, 2.99721 )
+position = Vector2( 709.815, 187.03 )
+scale = Vector2( 4, 4 )
 texture = ExtResource( 1 )
 centered = false
 region_enabled = true
-region_rect = Rect2( 0, 64, 32, 32 )
+region_rect = Rect2( 128, 32, 32, 32 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -164,16 +156,16 @@ position = Vector2( -0.0232042, -0.138869 )
 scale = Vector2( 0.196424, 0.333644 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="7/StaticBody2D"]
-position = Vector2( 83.2025, 48.3089 )
+position = Vector2( 82.8554, 48.3089 )
 shape = SubResource( 1 )
 
 [node name="8" type="Sprite" parent="."]
-position = Vector2( 426.595, 5.58565 )
-scale = Vector2( 5.09103, 2.99721 )
+position = Vector2( 548.071, 171.207 )
+scale = Vector2( 4, 4 )
 texture = ExtResource( 1 )
 centered = false
 region_enabled = true
-region_rect = Rect2( 160, 32, 32, 32 )
+region_rect = Rect2( 96, 32, 32, 32 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -183,16 +175,16 @@ position = Vector2( -0.0232042, -0.138869 )
 scale = Vector2( 0.196424, 0.333644 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="8/StaticBody2D"]
-position = Vector2( 83.2025, 48.3089 )
+position = Vector2( 82.8554, 48.3089 )
 shape = SubResource( 1 )
 
 [node name="9" type="Sprite" parent="."]
-position = Vector2( 833.687, 323.505 )
-scale = Vector2( 5.09103, 2.99721 )
+position = Vector2( 372.262, 178.239 )
+scale = Vector2( 4, 4 )
 texture = ExtResource( 1 )
 centered = false
 region_enabled = true
-region_rect = Rect2( 160, 128, 32, 32 )
+region_rect = Rect2( 64, 32, 32, 32 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -202,16 +194,16 @@ position = Vector2( -0.0232042, -0.138869 )
 scale = Vector2( 0.196424, 0.333644 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="9/StaticBody2D"]
-position = Vector2( 83.2025, 48.3089 )
+position = Vector2( 82.8554, 48.3089 )
 shape = SubResource( 1 )
 
 [node name="10" type="Sprite" parent="."]
-position = Vector2( 836.272, 171.007 )
-scale = Vector2( 5.09103, 2.99721 )
+position = Vector2( 192.937, 172.965 )
+scale = Vector2( 4, 4 )
 texture = ExtResource( 1 )
 centered = false
 region_enabled = true
-region_rect = Rect2( 160, 96, 32, 32 )
+region_rect = Rect2( 32, 32, 32, 32 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -221,16 +213,16 @@ position = Vector2( -0.0232042, -0.138869 )
 scale = Vector2( 0.196424, 0.333644 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="10/StaticBody2D"]
-position = Vector2( 83.2025, 48.3089 )
-shape = SubResource( 3 )
+position = Vector2( 82.8554, 48.3089 )
+shape = SubResource( 1 )
 
 [node name="11" type="Sprite" parent="."]
-position = Vector2( 9.16461, 256.303 )
-scale = Vector2( 5.09103, 2.99721 )
+position = Vector2( 862.768, 171.207 )
+scale = Vector2( 4, 4 )
 texture = ExtResource( 1 )
 centered = false
 region_enabled = true
-region_rect = Rect2( 0, 96, 32, 32 )
+region_rect = Rect2( 160, 32, 32, 32 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -240,16 +232,16 @@ position = Vector2( -0.0232042, -0.138869 )
 scale = Vector2( 0.196424, 0.333644 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="11/StaticBody2D"]
-position = Vector2( 83.2025, 48.3089 )
-shape = SubResource( 2 )
+position = Vector2( 82.8554, 48.3089 )
+shape = SubResource( 1 )
 
 [node name="12" type="Sprite" parent="."]
-position = Vector2( 223.696, 258.887 )
-scale = Vector2( 5.09103, 2.99721 )
+position = Vector2( 205.244, 317.128 )
+scale = Vector2( 4, 4 )
 texture = ExtResource( 1 )
 centered = false
 region_enabled = true
-region_rect = Rect2( 32, 128, 32, 32 )
+region_rect = Rect2( 272, 32, 32, 32 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -259,16 +251,16 @@ position = Vector2( -0.0232042, -0.138869 )
 scale = Vector2( 0.196424, 0.333644 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="12/StaticBody2D"]
-position = Vector2( 83.2025, 48.3089 )
+position = Vector2( 82.8554, 48.3089 )
 shape = SubResource( 1 )
 
 [node name="13" type="Sprite" parent="."]
-position = Vector2( 222.403, 372.615 )
-scale = Vector2( 5.09103, 2.99721 )
+position = Vector2( 24.1609, 324.16 )
+scale = Vector2( 4, 4 )
 texture = ExtResource( 1 )
 centered = false
 region_enabled = true
-region_rect = Rect2( 32, 160, 32, 32 )
+region_rect = Rect2( 272, 0, 32, 32 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -278,35 +270,16 @@ position = Vector2( -0.0232042, -0.138869 )
 scale = Vector2( 0.196424, 0.333644 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="13/StaticBody2D"]
-position = Vector2( 83.2025, 48.3089 )
-shape = SubResource( 1 )
-
-[node name="14" type="Sprite" parent="."]
-position = Vector2( 479.084, 340.969 )
-scale = Vector2( 5.09103, 2.99721 )
-texture = ExtResource( 1 )
-centered = false
-region_enabled = true
-region_rect = Rect2( 160, 160, 32, 32 )
-__meta__ = {
-"_edit_group_": true
-}
-
-[node name="StaticBody2D" type="StaticBody2D" parent="14"]
-position = Vector2( -0.0232042, -0.138869 )
-scale = Vector2( 0.196424, 0.333644 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="14/StaticBody2D"]
-position = Vector2( 83.2025, 48.3089 )
+position = Vector2( 82.8554, 48.3089 )
 shape = SubResource( 1 )
 
 [node name="15" type="Sprite" parent="."]
-position = Vector2( 259.323, 485.132 )
-scale = Vector2( 5.09103, 2.99721 )
+position = Vector2( 829.365, 338.225 )
+scale = Vector2( 4, 4 )
 texture = ExtResource( 1 )
 centered = false
 region_enabled = true
-region_rect = Rect2( 128, 32, 32, 32 )
+region_rect = Rect2( 0, 224, 32, 32 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -316,24 +289,16 @@ position = Vector2( -0.0232042, -0.138869 )
 scale = Vector2( 0.196424, 0.333644 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="15/StaticBody2D"]
-position = Vector2( 83.2025, 48.3089 )
+position = Vector2( 82.8554, 48.3089 )
 shape = SubResource( 1 )
 
-[node name="16" type="Sprite" parent="."]
-position = Vector2( 496.665, 474.584 )
-scale = Vector2( 5.09103, 2.99721 )
+[node name="14" type="Sprite" parent="."]
+position = Vector2( 325.719, 306.765 )
+scale = Vector2( 4, 4 )
 texture = ExtResource( 1 )
 centered = false
 region_enabled = true
-region_rect = Rect2( 96, 32, 32, 32 )
+region_rect = Rect2( 128, 96, 128, 64 )
 __meta__ = {
 "_edit_group_": true
 }
-
-[node name="StaticBody2D" type="StaticBody2D" parent="16"]
-position = Vector2( -0.0232042, -0.138869 )
-scale = Vector2( 0.196424, 0.333644 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="16/StaticBody2D"]
-position = Vector2( 83.2025, 48.3089 )
-shape = SubResource( 1 )
